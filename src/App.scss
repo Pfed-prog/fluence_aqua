@@ -2,6 +2,36 @@ $color1: black;
 $color2: rgb(214, 214, 214);
 $accent-color: rgb(225, 30, 90);
 
+body {
+  background-color: rgb(214, 214, 214);
+}
+
+h1 {
+  font-size: 46px;
+  text-align: center;
+  font-family: Roboto, Helvetica, bold;
+  color: rgb(225, 30, 90);
+}
+
+.btn-init {
+  border-radius: 24px;
+  padding: 10px 30px;
+  background: #f1f1f1;
+  text-align: center;
+  align-items: center;
+  margin: 0px;
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+
 .logo {
   height: 15vmin;
   pointer-events: none;
@@ -20,7 +50,6 @@ header {
 }
 
 header,
-h1,
 h2,
 h3 {
   text-align: center;
@@ -93,6 +122,7 @@ li {
   display: inline;
   float: right;
 }
+
 
 table {
   text-align: right;

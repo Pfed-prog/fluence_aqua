@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@3id/connect": "^0.2.5",
+    "@ceramicnetwork/3id-did-resolver": "^1.4.5",
+    "@ceramicnetwork/http-client": "^1.4.1",
     "@fluencelabs/fluence": "0.12.0",
     "@fluencelabs/fluence-network-environment": "1.0.10",
     "@testing-library/jest-dom": "^5.14.1",
@@ -12,6 +15,8 @@
     "@types/node": "^12.20.16",
     "@types/react": "^17.0.14",
     "@types/react-dom": "^17.0.9",
+    "dids": "^2.4.0",
+    "near-api-js": "^0.43.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
