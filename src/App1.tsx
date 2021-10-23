@@ -114,7 +114,6 @@ function App() {
           </>
         ) : (
           <>
-            <h1>Intro 1: P2P browser-to-browser</h1>
             <h2>Pick a relay</h2>
             <ul>
               {relayNodes.map((x) => (
